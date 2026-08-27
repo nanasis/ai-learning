@@ -1,36 +1,17 @@
 # AI Learning Notes
 
-Welcome! This site collects my notes, experiments, and useful resources as I learn about artificial intelligence.
+A collection of executable Jupyter notebooks from my AI learning journey.
 
-## Explore
+## Notebooks
 
 <div class="grid cards" markdown>
 
--   :material-notebook-outline:{ .lg .middle } **Learning notes**
+-   :material-head-cog-outline:{ .lg .middle } **Build GPT from scratch**
 
     ---
 
-    Structured notes about models, tools, and concepts.
+    Learn the foundations of GPT by implementing increasingly capable language models, beginning with a Bigram model.
 
-    [:octicons-arrow-right-24: Browse notes](notes/getting-started.md)
-
--   :material-post-outline:{ .lg .middle } **Blog**
-
-    ---
-
-    Progress updates, experiments, and longer articles.
-
-    [:octicons-arrow-right-24: Read the blog](blog/index.md)
+    [:octicons-arrow-right-24: Open the notebook](notes/Build-GPT-from-scratch/build_gpt_from_scratch.ipynb)
 
 </div>
-
-## Topics
-
-- Machine learning fundamentals
-- Large language models
-- Prompt engineering
-- Retrieval-augmented generation
-- AI agents and developer tools
-
-!!! tip "Start writing"
-    Add regular notes under `docs/notes/`. To publish a dated article, add a Markdown file under `docs/blog/posts/` with the metadata shown in the example post.

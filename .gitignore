@@ -1,11 +1,16 @@
 # MkDocs build output
 site/
 
-# Python
+# Local package downloads
+.torch-parts/
+*.whl
+
+# Python and Jupyter
 __pycache__/
 *.py[cod]
 .venv/
 venv/
+.ipynb_checkpoints/
 
 # Editors and operating systems
 .vscode/

@@ -34,11 +34,9 @@ theme:
 
 plugins:
   - search
-  - blog:
-      blog_dir: blog
-      post_date_format: long
-      archive: true
-      categories: true
+  - mkdocs-jupyter:
+      include_source: true
+      execute: false
 
 markdown_extensions:
   - admonition
@@ -58,10 +56,8 @@ markdown_extensions:
 
 nav:
   - Home: index.md
-  - Notes:
-      - Getting Started: notes/getting-started.md
-  - Blog: blog/index.md
-  - About: about.md
+  - Notebooks:
+      - Build GPT from scratch: notes/Build-GPT-from-scratch/build_gpt_from_scratch.ipynb
 
 extra:
   social:
